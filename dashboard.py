@@ -3,6 +3,7 @@
 # pip freeze > requirements.txt
 
 
+!pip install --upgrade openpyxl
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
