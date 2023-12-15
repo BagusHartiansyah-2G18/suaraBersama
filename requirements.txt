@@ -81,6 +81,7 @@ defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
 diff-match-patch @ file:///Users/ktietz/demo/mc3/conda-bld/diff-match-patch_1630511840874/work
 dill @ file:///C:/ci_311/dill_1676433323862/work
 distributed @ file:///C:/b/abs_7509xfv227/croot/distributed_1686866088894/work
+docopt==0.6.2
 docstring-to-markdown @ file:///C:/ci_311/docstring-to-markdown_1677742566583/work
 docutils @ file:///C:/ci_311/docutils_1676428078664/work
 entrypoints @ file:///C:/ci_311/entrypoints_1676423328987/work
@@ -213,6 +214,7 @@ pep8==1.7.1
 pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
 pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
 Pillow @ file:///C:/b/abs_153xikw91n/croot/pillow_1695134603563/work
+pipreqs==0.4.13
 pkce @ file:///C:/b/abs_d0z4444tb0/croot/pkce_1690384879799/work
 pkginfo @ file:///C:/b/abs_d18srtr68x/croot/pkginfo_1679431192239/work
 platformdirs @ file:///C:/b/abs_b6z_yqw_ii/croot/platformdirs_1692205479426/work
@@ -371,6 +373,7 @@ xxhash @ file:///C:/ci_311/python-xxhash_1676446168786/work
 xyzservices @ file:///C:/ci_311/xyzservices_1676434829315/work
 y-py @ file:///C:/b/abs_b7f5go6r0j/croot/y-py_1683662173571/work
 yapf @ file:///tmp/build/80754af9/yapf_1615749224965/work
+yarg==0.1.9
 yarl @ file:///C:/ci_311/yarl_1676432870023/work
 ypy-websocket @ file:///C:/b/abs_4e65ywlnv8/croot/ypy-websocket_1684172103529/work
 zict @ file:///C:/b/abs_fc7elavmem/croot/zict_1682698759288/work
