@@ -26,7 +26,8 @@ with st.sidebar:
 
 # read data 
 # allData = pd.read_excel("https://docs.google.com/spreadsheets/d/e/2PACX-1vRrTVLo9EUE9eGc6sAw-WsLIDDUaAVBVmGvaKQjTz7696busOoh32mXD0RDIVs_TqJnVwJBEoT-qbzi/pub?output=xlsx")
-allData =[]
+allData = pd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRrTVLo9EUE9eGc6sAw-WsLIDDUaAVBVmGvaKQjTz7696busOoh32mXD0RDIVs_TqJnVwJBEoT-qbzi/pub?output=csv")
+# allData =[]
 
 # get daftar Desa dan jumlah nya 
 # desaC = allData.groupby(by=['desa']).desa.count() 
