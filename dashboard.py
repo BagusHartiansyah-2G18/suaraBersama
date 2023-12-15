@@ -35,17 +35,14 @@ desaC = allData.groupby(by=['DESA']).agg(
     total=('DESA','count')
 )
 
-st.header('Data Desa / Kelurahan ('+str(desaC.values.size)+') :sparkles:')
-st.text("Dengan Total Suara: "+str(desaC.values.sum())+' orang')
-
-col1, col2 = st.columns(2)
-# col1.write("This is column 1")
-# col2.write("This is column 2")
-with col1:
-    # st.table(pd.DataFrame([desaC.index,desaC.values],columns=["Desa","Total Suara"]))
-    st.dataframe(desaC,use_container_width=True)
-with col2:
-    st.bar_chart(desaC)
+with st.container(border=True):
+    st.header('Data Desa / Kelurahan ('+str(desaC.values.size)+') :sparkles:')
+    st.text("Dengan Total Suara: "+str(desaC.values.sum())+' orang')
+    col, col = st.columns(2)
+    with col:
+        st.dataframe(desaC,use_container_width=True)
+    with col:
+        st.bar_chart(desaC)
 
 # batas 
 if 'viewTabel' not in st.session_state:
